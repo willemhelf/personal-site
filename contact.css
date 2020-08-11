@@ -1,0 +1,39 @@
+* {
+	letter-spacing: -0.5px;
+	font-size: 24px;
+}
+
+h1 {
+	font-family: Times New Roman; 
+	font-weight: normal;
+}
+
+h1:hover {
+	color: blue;
+}
+
+#links {
+	font-family: Times New Roman;
+	text-decoration: none;
+	color: black;
+}
+
+p {
+	font-family: Times New Roman;
+}
+
+ul {
+	font-family: Times New Roman;
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	text-decoration: none;
+	color: black;
+	font-style: italic;
+}
