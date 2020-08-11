@@ -59,3 +59,18 @@ a:hover {
     bottom: 0px; 
     width: 100%;
 }
+
+@media only screen and (max-device-width: 480px) {
+	#canvas {
+		visibility: hidden;
+	}
+	body {
+		background-color: #dedede;
+		text-align: center;
+		font-size: 30;
+	}
+    #footer {
+        visibility: hidden;
+        z-index: -1;
+    }
+}
