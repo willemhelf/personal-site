@@ -5,6 +5,13 @@
 	padding: 0;
 }
 
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
 h1 {
 	font-family: Times New Roman; 
 	font-style: italic;
@@ -23,11 +30,6 @@ h1:hover {
 p {
 	font-family: Times New Roman;
 }
-
-.hover:hover {
-	font-style: italic;
-}
-
 a:hover {
 	text-decoration: none;
 	color: black;
@@ -38,4 +40,16 @@ a:hover {
     position:absolute;
     width:100%;
     height:100%;
+}
+
+#container {
+	background-color: #dedede;
+	text-align: center;
+}
+
+#footer {
+	position: fixed;     
+    text-align: center;    
+    bottom: 0px; 
+    width: 100%;
 }
