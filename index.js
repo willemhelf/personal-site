@@ -1,5 +1,4 @@
 const canvas = document.querySelector('#canvas');
-  // could be 3d, if you want to make a video game
   const ctx = canvas.getContext('2d');
   canvas.width = window.innerWidth;
   canvas.height = window.innerHeight;
@@ -14,7 +13,7 @@ const canvas = document.querySelector('#canvas');
   let lastY = 0;
 
   function draw(e) {
-    // stop the function if they are not mouse down
+    // stop function if no mousedown
     if(!isDrawing) return;
     //listen for mouse move event
     console.log(e);
